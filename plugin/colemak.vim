@@ -60,6 +60,7 @@ function! ColemakEnable()
 " Visual mode {{{
     nnoremap a v|xnoremap a v|
     nnoremap A V|xnoremap A V|
+    nnoremap <C-A> <C-V>|xnoremap <C-A> <C-V>|
     nnoremap ga gv
     " Make insert/add work also in visual line mode like in visual block mode
     xnoremap <silent> <expr> s (mode() =~# "[V]" ? "\<C-V>0o$I" : "I")
