@@ -55,7 +55,7 @@ function! ColemakEnable()
 " Undo/redo {{{
     nnoremap z u|xnoremap z :<C-U>undo<CR>|
     nnoremap gz U|xnoremap gz :<C-U>undo<CR>|
-    nnoremap Z <C-R>|xnoremap Z :<C-U>redo<CR>|
+    nnoremap <C-Z> <C-R>|xnoremap <C-Z> :<C-U>redo<CR>|
 " }}}
 " Visual mode {{{
     nnoremap a v|xnoremap a v|
@@ -143,7 +143,7 @@ function! ColemakDisable()
 " Undo/redo {{{
     nnoremap z u|xnoremap z :<C-U>undo<CR>|
     nnoremap gz U|xnoremap gz :<C-U>undo<CR>|
-    nnoremap Z <C-R>|xnoremap Z :<C-U>redo<CR>|
+    nnoremap <C-Z> <C-R>|xnoremap <C-Z> :<C-U>redo<CR>|
 " }}}
 " Visual mode {{{
     nnoremap a v|xnoremap a v|
