@@ -92,7 +92,7 @@ function! ColemakEnable()
     nnoremap gL L|xnoremap gL L|
 " }}}
 " Window handling {{{
-    nnoremap <C-W>h <C-W>h|xnoremap <C-W>h <C-W>h|
+    nnoremap <C-W>m <C-W>h|xnoremap <C-W>m <C-W>h|
     nnoremap <C-W>n <C-W>j|xnoremap <C-W>n <C-W>j|
     nnoremap <C-W>e <C-W>k|xnoremap <C-W>e <C-W>k|
     nnoremap <C-W>i <C-W>l|xnoremap <C-W>i <C-W>l|
@@ -181,7 +181,7 @@ function! ColemakDisable()
     nnoremap gL L|xnoremap gL L|
 " }}}
 " Window handling {{{
-    nnoremnp <C-W>h <C-W>h|xnoremap <C-W>h <C-W>h|
+    nnoremap <C-W>m <C-W>h|xnoremap <C-W>m <C-W>h|
     nnoremap <C-W>n <C-W>j|xnoremap <C-W>n <C-W>j|
     nnoremap <C-W>e <C-W>k|xnoremap <C-W>e <C-W>k|
     nnoremap <C-W>i <C-W>l|xnoremap <C-W>i <C-W>l|
