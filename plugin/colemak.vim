@@ -87,6 +87,8 @@ function! ColemakEnable()
     nnoremap j z|xnoremap j z|
     nnoremap jn zj|xnoremap jn zj|
     nnoremap je zk|xnoremap je zk|
+    " marks
+    nnoremap " m|xnoremap " m
 " }}}
 " Overridden keys must be prefixed with g {{{
     nnoremap gX X|xnoremap gX X|
