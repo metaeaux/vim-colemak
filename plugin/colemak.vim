@@ -45,7 +45,9 @@ function! ColemakEnable()
 " Cut/copy/paste {{{
     nnoremap x x|xnoremap x d|
     nnoremap c y|xnoremap c y|
-    nnoremap v p|xnoremap v p|
+    " nnoremap v p|xnoremap v p|
+    " paste without replacing contents of register
+    nnoremap v p|xnoremap v "_c<C-r><C-o>+<Esc>|
     nnoremap X dd|xnoremap X d|
     nnoremap C yy|xnoremap C y|
     nnoremap V P|xnoremap V P|
