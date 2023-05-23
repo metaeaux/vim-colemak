@@ -13,10 +13,13 @@
 
 function! ColemakEnable()
 " Up/down/left/right {{{
-    nnoremap m h|xnoremap m h|onoremap m h|
-    nnoremap n j|xnoremap n j|onoremap n j|
-    nnoremap e k|xnoremap e k|onoremap e k|
-    nnoremap i l|xnoremap i l|onoremap i l|
+    nnoremap n h|xnoremap n h|onoremap n h|
+    nnoremap e j|xnoremap e j|onoremap e j|
+    nnoremap i k|xnoremap i k|onoremap i k|
+    nnoremap o l|xnoremap o l|onoremap o l|
+    nnoremap m o|xnoremap m o|onoremap m o|
+    nnoremap M O|xnoremap M O|onoremap M O|
+
 " }}}
 " Words forward/backward {{{
     " l/L = back word/WORD
@@ -76,8 +79,8 @@ function! ColemakEnable()
     nnoremap P T|xnoremap P T|onoremap P T|
     nnoremap b ;|xnoremap b ;|onoremap b ;|
     nnoremap B ,|xnoremap B ,|onoremap B ,|
-    nnoremap k n|xnoremap k n|onoremap k n|
-    nnoremap K N|xnoremap K N|onoremap K N|
+    nnoremap h n|xnoremap h n|onoremap h n|
+    nnoremap H N|xnoremap H N|onoremap H N
 " }}}
 " inneR text objects {{{
     " E.g. dip (delete inner paragraph) is now drp
@@ -96,10 +99,10 @@ function! ColemakEnable()
     nnoremap gL L|xnoremap gL L|
 " }}}
 " Window handling {{{
-    nnoremap <C-W>m <C-W>h|xnoremap <C-W>m <C-W>h|
-    nnoremap <C-W>n <C-W>j|xnoremap <C-W>n <C-W>j|
-    nnoremap <C-W>e <C-W>k|xnoremap <C-W>e <C-W>k|
-    nnoremap <C-W>i <C-W>l|xnoremap <C-W>i <C-W>l|
+    nnoremap <C-W>n <C-W>h|xnoremap <C-W>n <C-W>h|
+    nnoremap <C-W>e <C-W>j|xnoremap <C-W>e <C-W>j|
+    nnoremap <C-W>i <C-W>k|xnoremap <C-W>i <C-W>k|
+    nnoremap <C-W>o <C-W>l|xnoremap <C-W>o <C-W>l|
 " }}}
 endfunction
 
