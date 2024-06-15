@@ -104,6 +104,10 @@ function! ColemakEnable()
     nnoremap <C-W>i <C-W>k|xnoremap <C-W>i <C-W>k|
     nnoremap <C-W>o <C-W>l|xnoremap <C-W>o <C-W>l|
 " }}}
+" Move beginning of line or end of line
+    nnoremap & $|xnoremap & $|
+    nnoremap $ ^|xnoremap $ ^|
+
 endfunction
 
 function! ColemakDisable()
